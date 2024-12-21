@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Task Manager Styles */
+  .task-manager {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Task Title */
+  .title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Input Fields */
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .input-field {
+    padding: 10px;
+    font-size: 16px;
+    color: black; /* Set font color to black */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea.input-field {
+    height: 80px;
+    resize: vertical;
+  }
+  
+  /* Buttons */
+  .add-button, .delete-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .add-button:hover, .delete-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Task List Styles */
+  .task-list {
+    margin-top: 20px;
+  }
+  
+  .task-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-details {
+    margin-bottom: 10px;
+  }
+  
+  /* Text inside Task Card */
+  .task-card p {
+    color: black; /* Ensure text is black inside task card */
+  }
+  
+  .task-card strong {
+    color: black; /* Ensure label text is black */
+  }
+  
+  /* No Tasks Message */
+  .no-tasks {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+  }
+  
